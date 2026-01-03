@@ -1,0 +1,42 @@
+{
+	"default_config": [
+		"SimpleStrategyEvaluator"
+	],
+	"required_strategies": [
+		"SimpleStrategyEvaluator",
+		"TechnicalAnalysisStrategyEvaluator"
+	],
+	"required_strategies_min_count": 1,
+	"atr_period": 14,
+	"atr_multiplier": 2,
+	"profit_tiers": [
+		{
+			"r_multiple": 1,
+			"lock_percentage": 0.25
+		},
+		{
+			"r_multiple": 2,
+			"lock_percentage": 0.5
+		},
+		{
+			"r_multiple": 3,
+			"lock_percentage": 0.75
+		}
+	],
+	"partial_take_profit_percentages": [
+		0.5,
+		0.3,
+		0.2
+	],
+	"partial_take_profit_r_multiples": [
+		1,
+		2,
+		3
+	],
+	"break_even_r_multiple": 0.5,
+	"max_trade_duration_bars": 24,
+	"enable_trend_filter": true,
+	"enable_volatility_filter": true,
+	"enable_momentum_filter": true,
+	"emit_trading_signals": false
+}

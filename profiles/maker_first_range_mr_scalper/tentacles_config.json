@@ -1,0 +1,12 @@
+{
+    "tentacle_activation": {
+        "Evaluator": {
+            "RangeRegimeEvaluator15m": true,
+            "MeanReversionEntryEvaluator1m": true
+        },
+        "Trading": {
+            "MakerScalpingMode": true,
+            "MakerFirstRangeMRStrategy": true
+        }
+    }
+}

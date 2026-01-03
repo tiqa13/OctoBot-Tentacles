@@ -1,0 +1,8 @@
+{
+    "tentacles": [
+        "RangeRegimeEvaluator15m",
+        "MeanReversionEntryEvaluator1m"
+    ],
+    "version": "1.2.0",
+    "origin_package": "OctoBot-Default-Tentacles"
+}
