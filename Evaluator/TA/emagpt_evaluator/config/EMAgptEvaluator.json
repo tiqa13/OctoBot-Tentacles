@@ -1,0 +1,9 @@
+{
+	"fast_period": 21,
+	"slow_period": 100,
+	"price_threshold_percent": 0.2,
+	"reverse_signal": false,
+	"momentum_lookback": 3,
+	"min_slope": 0.00005,
+	"persistence_candles": 2
+}
